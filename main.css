@@ -2,7 +2,9 @@
   margin: 0;
   padding: 0;
 }
-
+.shit{
+  height: 50px;
+}
 .button{
   width: 40px;
   height: 40px;
@@ -12,11 +14,12 @@
   border: none;
   color: #bd26f2
 }
-
+.formwrap{
+  text-align: center;
+  display: block;
+}
 .textvieuw{
-  margin-top: 160px;
-  margin-bottom: 20px;
-  margin-left: 80px;
+  display: inline-block;
   width: 173px;
   height: 40px;
   font-size: 30px;
@@ -25,13 +28,13 @@
 }
 
 .tablet {
-  margin-left: 80px;
-  margin-bottom: 20px
+  margin: 0 auto;
 }
 
 .bg{
-  width: 360px;
+  width: screen-width;
   height: 640px;
+  margin: 0 auto;
 
   background: linear-gradient(90deg, #fe35ec 0%,#7a17f8 100%);
 }
